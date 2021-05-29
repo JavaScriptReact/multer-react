@@ -24,7 +24,7 @@ mongoose.connection.on("error", (error) => console.log(error));
 
 app.use(
   cors({
-    origin: "https://multer-react.herokuapp.com",
+    origin: "https://boiling-shelf-56263.herokuapp.com/",
   })
 );
 
