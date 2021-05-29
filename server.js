@@ -62,7 +62,6 @@ app.post("/", upload.single("image"), function (req, res) {
 
 app.get("/uploads/:image_name", function (req, res) {
   const { image_name } = req.params;
-  console.log("called");
   res.sendFile(path.join(__dirname, "uploads", image_name));
 });
 
