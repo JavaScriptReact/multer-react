@@ -24,7 +24,7 @@ mongoose.connection.on("error", (error) => console.log(error));
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://multer-react.herokuapp.com",
   })
 );
 
